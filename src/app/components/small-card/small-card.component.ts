@@ -10,6 +10,8 @@ export class SmallCardComponent implements OnInit {
   photoCover:string = "https://nosbastidores.com.br/wp-content/uploads/2021/08/Series-Marvel-Disney-Plus-1024x576-1.jpg"
   @Input()
   cardTitle:string = "NOVA SÉRIE ANUNCIADA"
+  @Input()
+  Id:string = "0";
 
   constructor() { }
 

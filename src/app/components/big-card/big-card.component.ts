@@ -13,10 +13,7 @@ export class BigCardComponent implements OnInit {
   cardTitle:string = "";
   // cardCategory:string = "";
   @Input()
-  cardCategorys = {
-    ktr1: "Filmes",
-    ktr2: "Ação",
-  }
+  Id:string = "0";
 
   constructor() { }
 
