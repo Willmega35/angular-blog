@@ -1,9 +1,9 @@
 .container_big-card{
-  border: solid black 2.5px;
+  /* border: solid black 2.5px; */
   margin-left: 20px;
   margin-right: 20px;
   width: 600px;
-  height: 500px;
+  height: 400px;
 
   display: flex;
   flex-direction: column;
