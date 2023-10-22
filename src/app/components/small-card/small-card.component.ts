@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./small-card.component.css']
 })
 export class SmallCardComponent implements OnInit {
+  @Input()
+  photoCover:string = "https://nosbastidores.com.br/wp-content/uploads/2021/08/Series-Marvel-Disney-Plus-1024x576-1.jpg"
+  @Input()
+  cardTitle:string = "NOVA SÉRIE ANUNCIADA"
 
   constructor() { }
 
